@@ -1,0 +1,30 @@
+{
+  "name": "@nwsanfor24/readme-generator",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my projects",
+  "main": "src/index.js",
+  "bin": {
+    "@nwsanfor24/readme-generator": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0"
+  }
+}
